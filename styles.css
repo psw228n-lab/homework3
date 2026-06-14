@@ -77,8 +77,8 @@ em { color: var(--yellow); font-style: normal; }
 .scroll-hint { position: absolute; z-index: 12; bottom: 65px; left: 49%; display: flex; align-items: center; gap: 10px; color: var(--navy); font-size: 9px; font-weight: 900; letter-spacing: .2em; transform: rotate(90deg); }
 .scroll-hint i { width: 44px; height: 1px; background: var(--navy); }
 
-.problem { position: relative; z-index: 9; min-height: 846px; margin-top: -86px; padding: 226px clamp(30px, 8vw, 140px) 100px; display: flex; align-items: center; background-image: url("assets/order-wait-phone.png"), var(--sky-gradient); background-position: calc(100% + 55px) center, center; background-size: auto 84%, cover; background-repeat: no-repeat; clip-path: polygon(0 86px, 100% 0, 100% 100%, 0 100%); overflow: hidden; }
-.problem::before { content: ""; position: absolute; top: 0; bottom: 0; left: 0; width: 58%; background: linear-gradient(90deg, rgba(0,38,92,.72) 0%, rgba(0,73,139,.5) 56%, transparent 100%); pointer-events: none; }
+.problem { position: relative; z-index: 9; min-height: 846px; margin-top: -86px; padding: 226px clamp(30px, 8vw, 140px) 100px; display: flex; align-items: center; background-image: url("assets/order-wait-phone.png"), linear-gradient(90deg, #075aa3 0%, #098bc7 52%, #00a2d6 100%); background-position: calc(100% + 55px) center, center; background-size: auto 84%, cover; background-repeat: no-repeat; clip-path: polygon(0 86px, 100% 0, 100% 100%, 0 100%); overflow: hidden; }
+.problem::before { content: ""; position: absolute; top: 0; bottom: 0; left: 0; width: 58%; background: linear-gradient(90deg, rgba(0,26,70,.78) 0%, rgba(0,54,112,.55) 56%, transparent 100%); pointer-events: none; }
 .problem .section-heading { position: relative; z-index: 2; width: min(600px, 44%); }
 .problem .section-no { color: var(--yellow); }
 .problem .section-heading h2 { color: white; text-shadow: 0 4px 18px rgba(0,71,133,.16); }
