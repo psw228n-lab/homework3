@@ -247,3 +247,16 @@ footer a { margin-left: auto; color: white; font-weight: 900; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+.what *,
+.reserve-now *,
+.dicount-reservation *,
+.now-pizza * {
+  pointer-events: none;
+}
+
+.what,
+.reserve-now,
+.dicount-reservation,
+.now-pizza {
+  cursor: pointer;
+}
